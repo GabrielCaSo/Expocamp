@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+}
+h4{
+    font-weight: bold;
+}
+h5{
+    font-weight: bold;
+}
+.card {
+    border-radius: 10px;
+}
+a.btn {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+a.btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+.resultados-icon {
+font-size: 2rem;
+color: #28a745; /* verde */
+margin-bottom: 0.5rem;
+}
+.resultados-section {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+    text-align: center;
+}
+.resultado-card {
+    border-radius: 0.75rem;
+    box-shadow: 0 0.25rem 0.5rem rgb(0 0 0 / 0.1);
+    padding: 1.5rem 1rem;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+.resultado-valor {
+    font-weight: 700;
+    font-size: 2rem;
+}
+.resultado-ano {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #28a745;
+}
+.resultado-dificuldades {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #dc3545; /* vermelho */
+}
+.restricoes-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.restricoes-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+    font-weight: 600;
+}
+.restricoes-percent {
+    background-color: #e9ecef;
+    border-radius: 0.5rem;
+    padding: 0 0.75rem;
+    color: #495057;
+    font-weight: 700;
+}
+        
