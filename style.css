@@ -90,3 +90,21 @@ a.btn:hover {
     color: #495057;
     font-weight: 700;
 }
+.btn-chocolate {
+    background-color: #6f4e37;
+    color: white;
+    border: none;
+}
+.btn-chocolate:hover {
+    background-color: #59382b;
+    color: white;
+}
+.btn-cenoura {
+    background-color: #f28c28;
+    color: white;
+    border: none;
+}
+.btn-cenoura:hover {
+    background-color: #d97f1f;
+    color: white;
+}
