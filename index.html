@@ -22,6 +22,7 @@
                     <li class="nav-item"><a class="nav-link" href="#direitos">Direitos</a></li>
                     <li class="nav-item"><a class="nav-link" href="#resultados">Resultados</a></li>
                     <li class="nav-item"><a class="nav-link" href="#pesquisas">Pesquisas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#participar">Participe</a></li>
                 </ul>
             </div>
         </div>
@@ -115,22 +116,27 @@
         <div class="container">
             <h2>Resultados da Pesquisa</h2>
             <div class="row justify-content-center pt-3 gy-4">
-                <div class="col-md-12">
+                <div class="col-md-6">
                     <div class="resultado-card text-center">
                         <div class="resultado-ano">2024</div>
                         <small class="text-muted">Dados da pesquisa</small>
                         <div class="resultado-valor mt-2">242</div>
                         <div class="resultado-dificuldades mt-1">
-                            <img src="grafico2024.png" alt="Gráfico 2024" class="img-fluid">
+                            <img src="grafico2024.png" 
+                                 alt="Gráfico dos resultados da pesquisa de 2024" 
+                                 class="img-fluid zoomable">
                         </div>
                     </div>
-                    <div class="col-md-12 pt-3">
+                </div>
+                <div class="col-md-6">
                     <div class="resultado-card text-center">
                         <div class="resultado-ano">2025</div>
                         <small class="text-muted">Dados da pesquisa</small>
                         <div class="resultado-valor mt-2">101</div>
                         <div class="resultado-dificuldades mt-1">
-                            <img src="grafico2025.png" alt="Gráfico 2025" class="img-fluid">
+                            <img src="grafico2025.png" 
+                                 alt="Gráfico dos resultados da pesquisa de 2025" 
+                                 class="img-fluid zoomable">
                         </div>
                     </div>
                 </div>
@@ -143,9 +149,13 @@
         <div class="container">
             <h2 class="mb-4 text-dark">Pesquisas de Satisfação</h2>
             <p class="lead mb-5 text-dark text-center">Participe das nossas pesquisas e nos ajude a melhorar ainda mais!</p>
-            <p>O objetivo desta iniciativa é implementar uma opção alimentar que atenda a um espectro mais amplo de restrições alimentares, utilizando-se dos ingredientes disponibilizados pelo restaurante universitário para a produção de bolos destinados ao café da manhã. Esta medida visa suprir a atual lacuna no cardápio, que não oferece alternativas para o desjejum e lanches que sejam isentas de leite e ovos.
-
-Por meio desta pesquisa de satisfação, busca-se demonstrar que mesmo os discentes sem restrições alimentares específicas apoiam a substituição do bolo convencional atualmente servido pelo refeitório por essas alternativas inclusivas, evidenciando a viabilidade e aceitação da proposta junto ao corpo discente em sua totalidade.</p>
+            <p>
+                O objetivo desta iniciativa é implementar uma opção alimentar que atenda a um espectro mais amplo de restrições alimentares, utilizando-se dos ingredientes disponibilizados pelo restaurante universitário para a produção de bolos destinados ao café da manhã. 
+                Esta medida visa suprir a atual lacuna no cardápio, que não oferece alternativas para o desjejum e lanches que sejam isentas de leite e ovos.
+            </p>
+            <p>
+                Por meio desta pesquisa de satisfação, busca-se demonstrar que mesmo os discentes sem restrições alimentares específicas apoiam a substituição do bolo convencional atualmente servido pelo refeitório por essas alternativas inclusivas, evidenciando a viabilidade e aceitação da proposta junto ao corpo discente em sua totalidade.
+            </p>
             <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfuzkCJaxydg-q-LrOgwr6v-7BWIe6eyOOCAB53utNLQuwjSg/viewform?usp=header" target="_blank" class="btn btn-chocolate btn-lg px-4 fw-semibold">
                     📋 Pesquisa 1 (Bolo de Chocolate)
@@ -158,7 +168,7 @@ Por meio desta pesquisa de satisfação, busca-se demonstrar que mesmo os discen
     </section>
 
     <!-- Seção de chamada para a pesquisa -->
-    <section class="py-5 bg-light text-center">
+    <section id="participar" class="py-5 bg-light text-center">
         <div class="container">
             <h2 class="mb-4 text-dark">Participe com a Gente!</h2>
             <p class="lead mb-5 text-dark text-center">Escolha como você quer contribuir com o Coletivo Veg:</p>
@@ -188,6 +198,12 @@ Por meio desta pesquisa de satisfação, busca-se demonstrar que mesmo os discen
         <p class="mb-0 text-center">&copy; 2025 Alimentação Escolar - Todos os direitos reservados.</p>
     </footer>
 
+    <!-- Overlay para imagens -->
+    <div class="img-overlay" id="imgOverlay">
+      <img src="" alt="Imagem ampliada" id="overlayImg">
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
