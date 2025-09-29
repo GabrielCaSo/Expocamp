@@ -420,3 +420,51 @@ h2 {
 .navbar-toggler.rotated {
   transform: rotate(180deg);
 }
+.instagram-floating {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    transition: transform 0.3s, opacity 0.3s;
+}
+.instagram-floating:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+.instagram-floating i {
+    color: #fff;
+    font-size: 28px;
+}
+/* ===== CARROSSEL MINIMALISTA ===== */
+#coletivoCarousel {
+    max-width: 900px;      /* largura máxima centralizada */
+    margin: 2rem auto;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--sombra-suave);
+}
+
+#coletivoCarousel img {
+    object-fit: cover;
+    height: 450px;         /* altura fixa para ficar uniforme */
+    border-radius: 16px;
+}
+
+.carousel-fade .carousel-item {
+    transition: opacity 1s ease-in-out; /* transição suave */
+}
+
+/* Remove indicadores e setas (garantia extra) */
+.carousel-indicators,
+.carousel-control-prev,
+.carousel-control-next {
+    display: none !important;
+}
